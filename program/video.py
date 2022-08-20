@@ -67,7 +67,7 @@ async def vplay(c: Client, m: Message):
             ],
             [
                     InlineKeyboardButton(
-                        "🕊.OWNER༒۝꧂", url=f"https://t.me/{OWNER_NAME}"
+                        "🕊🍂👣🌿", url=f"https://t.me/{OWNER_NAME}"
                     )
                 ],
         ]
@@ -81,7 +81,7 @@ async def vplay(c: Client, m: Message):
     a = await c.get_chat_member(chat_id, aing.id)
     if a.status != "administrator":
         await m.reply_text(
-            f"💡 To use me, I need to be an **Administrator** with the following **permissions**:\n\n» ❌ __Delete messages__\n» ❌ __Add users__\n» ❌ __Manage video chat__\n\nData is **updated** automatically after you **promote me**"
+            f"💡 Beni kullanmak için, bir **Administrator** ile **permissions**:\n\n» ❌ __Delete messages__\n» ❌ __Add users__\n» ❌ __Manage video chat__\n\nData is **updated** automatically after you **promote me**"
         )
         return
     if not a.can_manage_voice_chats:
@@ -159,7 +159,7 @@ async def vplay(c: Client, m: Message):
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
                     photo=f"{IMG_1}",
-                    caption=f"💡 **Track added to queue »** `{pos}`\n\n🏷 **Name:** [{songname}]({link}) | `video`\n💭 **Chat:** `{chat_id}`\n🎧 **Request by:** {requester} \n💚**Any issues contact :** [🕊.⋆𝙆𝙄𝙉𝙂](https://t.me/cl_me_logesh)",
+                    caption=f"💡 **Track added to queue »** `{pos}`\n\n🏷 **Name:** [{songname}]({link}) | `video`\n💭 **Chat:** `{chat_id}`\n🎧 **Request by:** {requester} \n💚 🎶🕊️🌿iyi seyirler📡",
                     reply_markup=keyboard,
                 )
             else:
@@ -274,7 +274,7 @@ async def vplay(c: Client, m: Message):
                         )
                         await m.reply_photo(
                             photo=thumbnail,
-                            caption=f"💡 **Track added to queue »** `{pos}`\n\n🏷 **Name:** [{songname}]({url}) | `video`\n⏱ **Duration:** `{duration}`\n🎧 **Request by:** {requester} \n💚**Any issues contact :**[🕊.⋆𝙆𝙄𝙉𝙂](https://t.me/cl_me_logesh)",
+                            caption=f"💡 **Track added to queue »** `{pos}`\n\n🏷 **Name:** [{songname}]({url}) | `video`\n⏱ **Duration:** `{duration}`\n🎧 **Request by:** {requester} \n💚**sponsor🍂:**[🕊💜🌿](https://t.me/CanliSohbetGruplari)",
                             reply_markup=keyboard,
                         )
                     else:
@@ -294,7 +294,7 @@ async def vplay(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=thumbnail,
-                                caption=f"🏷 **Name:** [{songname}]({url})\n⏱ **Duration:** `{duration}`\n💡 **Status:** `Playing`\n🎧 **Request by:** {requester}\n📹 **Stream type:** `Video`\n💚**Any issues contact :**[🕊.⋆𝙆𝙄𝙉𝙂](https://t.me/cl_me_logesh)",
+                                caption=f"🏷 **Name:** [{songname}]({url})\n⏱ **Duration:** `{duration}`\n💡 **Status:** `Playing`\n🎧 **Request by:** {requester}\n📹 **Stream type:** `Video`\n💚**sponsor :**[🕊💜🌿](https://t.me/CanliSohbetGruplari)",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
@@ -415,7 +415,7 @@ async def vstream(c: Client, m: Message):
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
                     photo=f"{IMG_1}",
-                    caption=f"💡 **Track added to queue »** `{pos}`\n\n💭 **Chat:** `{chat_id}`\n🎧 **Request by:** {requester}\n💚**Any issues contact :**[🕊.⋆𝙆𝙄𝙉𝙂](https://t.me/cl_me_logesh)",
+                    caption=f"💡 **Track added to queue »** `{pos}`\n\n💭 **Chat:** `{chat_id}`\n🎧 **Request by:** {requester}\n💚🕊️🍂👣🌿",
                     reply_markup=keyboard,
                 )
             else:
@@ -443,7 +443,7 @@ async def vstream(c: Client, m: Message):
                     )
                     await m.reply_photo(
                         photo=f"{IMG_2}",
-                        caption=f"💡 **[Video live]({link}) stream started.**\n\n💭 **Chat:** `{chat_id}`\n💡 **Status:** `Playing`\n🎧 **Request by:** {requester}\n💚**Any issues contact :** [🕊.⋆𝙆𝙄𝙉𝙂](https://t.me/cl_me_logesh)",
+                        caption=f"💡 **[Video live]({link}) stream started.**\n\n💭 **Chat:** `{chat_id}`\n💡 **Status:** `Playing`\n🎧 **Request by:** {requester}\n💜🕊️🍂👣🌿)",
                         reply_markup=keyboard,
                     )
                 except Exception as ep:

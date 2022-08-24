@@ -47,7 +47,7 @@ async def play(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="dans💃et", callback_data="https://telegra.ph/file/42c3ac451ba4f540ae5ba.mp4"),
+                InlineKeyboardButton(text="dans💃et", url=f"https://telegra.ph/file/42c3ac451ba4f540ae5ba.mp4"),
                 InlineKeyboardButton(text="• Cʟᴏsᴇ", callback_data="cls"),
             ],
              [

@@ -47,9 +47,9 @@ async def play(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="⏭️atla", callback_data="cskip"),
-                InlineKeyboardButton(text="⏹️dur", callback_data="cpause"),
-                InlineKeyboardButton(text="•❌kapaᴇ", callback_data="cls"), 
+                InlineKeyboardButton(text="⏭️atla", callback_data="skip"),
+                InlineKeyboardButton(text="⏹️dur", callback_data="pause"),
+                InlineKeyboardButton(text="•❌kapat", callback_data="cls"), 
             ],
              [
                     InlineKeyboardButton(
@@ -139,7 +139,7 @@ async def play(c: Client, m: Message):
                 )
             else:
              try:
-                await suhu.edit("♻️ **sese katılıyor...**")
+                await suhu.edit("https://telegra.ph/file/42c3ac451ba4f540ae5ba.mp4")
                 await call_py.join_group_call(
                     chat_id,
                     AudioPiped(

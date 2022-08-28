@@ -134,7 +134,7 @@ async def play(c: Client, m: Message):
                 await suhu.delete()
                 await m.reply_photo(
                     photo=f"{IMG_1}",
-                    caption=f"💡 **parça kuyruğa eklendi »** `{pos}`\n\n🏷 **isim:** [{songname}]({link}) | `music`\n💭 **grub:** `{chat_id}`\n🎧 **ekleyen🕊️by:** {m.from_user.mention()} \n💚**Herhangi bir sorun iletişim :** [🍂👣🌿](https://t.me/ruhsuzbeyyy)",
+                    caption=f"https://telegra.ph/file/42c3ac451ba4f540ae5ba.mp4💡 **parça kuyruğa eklendi »** `{pos}`\n\n🏷 **isim:** [{songname}]({link}) | `music`\n💭 **grub:** `{chat_id}`\n🎧 **ekleyen🕊️by:** {m.from_user.mention()} \n💚**Herhangi bir sorun iletişim :** [🍂👣🌿](https://t.me/ruhsuzbeyyy)",
                     reply_markup=keyboard,
                 )
             else:
@@ -187,7 +187,7 @@ async def play(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=thumbnail,
-                                caption=f"🍂👣🌿 **Takip kuyruğa eklendi »** `{pos}`\n\n🌒 **Adı:** [{songname}]({url}) | `muzik`\n**⏱ Süre:** `{duration}`\n🎧 **isteyen by:** {requester} \n🍂**Herhangi bir sorun iletişim 📡:** [🕊️TeknikDestek](https://t.me/ruhsuzbeyyy)",
+                                caption=f"https://telegra.ph/file/42c3ac451ba4f540ae5ba.mp4 🍂👣🌿 **Takip kuyruğa eklendi »** `{pos}`\n\n🌒 **Adı:** [{songname}]({url}) | `muzik`\n**⏱ Süre:** `{duration}`\n🎧 **isteyen by:** {requester} \n🍂**Herhangi bir sorun iletişim 📡:** [🕊️TeknikDestek](https://t.me/ruhsuzbeyyy)",
                                 reply_markup=keyboard,
                             )
                         else:
@@ -241,7 +241,7 @@ async def play(c: Client, m: Message):
                         )
                         await m.reply_photo(
                             photo=thumbnail,
-                            caption=f"🍂👣🌿 **Takip kuyruğa eklendi »** `{pos}`\n\n🌘**Adı:** [{songname}]({url}) | `music`\n**⏱ Süre:** `{duration}`\n🎧 **Request by:** {requester}\n💚**sponsor :** [🕊KorSan💜🌿](https://t.me/CanliSohbetGruplari)",
+                            caption=f"https://telegra.ph/file/42c3ac451ba4f540ae5ba.mp4 🍂👣🌿 **Takip kuyruğa eklendi »** `{pos}`\n\n🌘**Adı:** [{songname}]({url}) | `music`\n**⏱ Süre:** `{duration}`\n🎧 **Request by:** {requester}\n💚**sponsor :** [🕊KorSan💜🌿](https://t.me/CanliSohbetGruplari)",
                             reply_markup=keyboard,
                         )
                     else:
@@ -259,7 +259,7 @@ async def play(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=thumbnail,
-                                caption=f"🎶📡⚡ **Adı:** [{songname}]({url})\n**⏱ süre:** `{duration}`\n🌘**Durum:** `Oynatılıyor`\n🎧 **isteyen🕊️ by:** {requester}\n📹 **Çalma türü:** `Muzik`\n💚**sponsor🕊️:** [💜Korsan🌿](https://t.me/CanliSohbetGruplari)",
+                                caption=f"https://telegra.ph/file/42c3ac451ba4f540ae5ba.mp4 🎶📡⚡ **Adı:** [{songname}]({url})\n**⏱ süre:** `{duration}`\n🌘**Durum:** `Oynatılıyor`\n🎧 **isteyen🕊️ by:** {requester}\n📹 **Çalma türü:** `Muzik`\n💚**sponsor🕊️:** [💜Korsan🌿](https://t.me/CanliSohbetGruplari)",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:

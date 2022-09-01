@@ -1,4 +1,4 @@
-NodeJS
+Node.js
 tgcrypto
 asyncio
 ffmpeg-python

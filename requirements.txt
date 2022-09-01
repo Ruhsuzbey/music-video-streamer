@@ -20,4 +20,3 @@ motor
 psutil
 future
 wget
-npm
